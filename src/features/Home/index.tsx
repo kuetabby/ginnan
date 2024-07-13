@@ -230,7 +230,7 @@ const Home: React.FC<Props> = () => {
               <Image
                 src={HeroApp}
                 alt="angrycat-hero"
-                className="w-full h-auto md:h-[75vw] lg:h-full rounded-xl"
+                className="w-full h-auto md:h-[75vw] lg:h-full rounded-3xl"
               />
             </div>
 
@@ -311,7 +311,7 @@ const Home: React.FC<Props> = () => {
               <Image
                 src={HeroFlipApp}
                 alt="angrycat-hero-flip"
-                className="w-full h-auto md:h-[75vw] lg:h-full rounded-xl p-2 lg:p-0"
+                className="w-full h-auto md:h-[75vw] lg:h-full rounded-3xl p-2 lg:p-0"
               />
             </div>
 
