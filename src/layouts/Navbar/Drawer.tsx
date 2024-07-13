@@ -96,11 +96,13 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
         />
         <DrawerHeader className={`bg-angry-cat-primary h-24 ${lava.className}`}>
           <Link href="/" className={`logo-container text-white h-full`}>
-            <div className="font-extrabold text-2xl">ANGRYCAT</div>
+            <div className="font-extrabold text-3xl">ANGRYCAT</div>
           </Link>
         </DrawerHeader>
 
-        <DrawerBody className={`bg-angry-cat-primary ${lava.className}`}>
+        <DrawerBody
+          className={`bg-angry-cat-primary text-2xl ${lava.className}`}
+        >
           <List spacing={3}>
             {tabsList.map((item) => {
               const isActive = !!defaultHash
@@ -145,7 +147,7 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
         </DrawerBody>
 
         <DrawerFooter
-          className={`bg-angry-cat-primary mb-4 flex flex-wrap justify-center ${lava.className}`}
+          className={`bg-angry-cat-primary mb-4 flex flex-wrap justify-center text-2xl ${lava.className}`}
         >
           <Link
             href={findUsLink.raydium}
@@ -160,7 +162,7 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
               variant="outline"
               // leftIcon={<DollarOutlined style={{ fontSize: "1.5em" }} />}
             >
-              BUY $
+              BUY $ANGRYCAT
             </Button>
           </Link>
 

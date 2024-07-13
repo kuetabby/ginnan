@@ -125,7 +125,7 @@ const Navbar: React.FC<Props> = () => {
                     variant="outline"
                     // leftIcon={<DollarOutlined style={{ fontSize: "1.5em" }} />}
                   >
-                    $BUY
+                    BUY $ANGRYCAT
                   </Button>
                 </Link>
 
