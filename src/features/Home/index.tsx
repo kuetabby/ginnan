@@ -244,7 +244,9 @@ const Home: React.FC<Props> = () => {
                 humor collide for an unforgettable adventure.
               </div>
 
-              <br />
+              <div className="w-full m-auto text-3xl mt-14 mb-2 text-center lg:text-left lg:px-2">
+                Community
+              </div>
               <div className="w-full flex flex-wrap justify-center lg:justify-start items-center text-white m-auto gap-4">
                 <Link
                   href={socialsLink.telegram}
