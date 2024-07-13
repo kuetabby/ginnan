@@ -113,7 +113,7 @@ const Home: React.FC<Props> = () => {
 
   if (!isMounted) {
     return (
-      <div className="homepage-container">
+      <div className="homepage-container bg-angry-cat-primary">
         <YinLoader />
       </div>
     );
