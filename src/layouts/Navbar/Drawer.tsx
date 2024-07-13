@@ -98,7 +98,7 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
           className={`bg-angry-cat-primary h-24 ${marlon.className}`}
         >
           <Link href="/" className={`logo-container text-white h-full`}>
-            <div className="font-extrabold text-2xl">XIASI</div>
+            <div className="font-extrabold text-2xl">ANGRYCAT</div>
           </Link>
         </DrawerHeader>
 

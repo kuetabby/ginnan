@@ -12,7 +12,7 @@ import { NavbarDrawer } from "./Drawer";
 import { useIsMounted } from "@/hooks/useIsMounted";
 
 import { marlon } from "@/utils/font";
-import { socialsLink } from "@/constants/links";
+import { findUsLink, socialsLink } from "@/constants/links";
 
 import AngryCatLogo from "@/assets/angry-cat-hero-rounded.png";
 
@@ -113,7 +113,7 @@ const Navbar: React.FC<Props> = () => {
             <>
               <div className="w-full sm:flex sm:justify-end hidden">
                 <Link
-                  href={socialsLink.telegram}
+                  href={findUsLink.raydium}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-auto mr-2 md:mr-4"

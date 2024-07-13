@@ -206,7 +206,7 @@ const Home: React.FC<Props> = () => {
           <Image src={BannerApp} alt="header" className="w-full h-full" />
           <div className="w-full h-auto text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl flex justify-center absolute bottom-2 z-30">
             <div
-              className="hover:text-blue-500 active:text-blue-500 cursor-pointer italic"
+              className="text-angry-cat-secondary hover:text-angry-cat-secondary active:text-angry-cat-secondary cursor-pointer italic"
               onClick={() => copyContent(contractAddress)}
             >
               {contractAddress}
