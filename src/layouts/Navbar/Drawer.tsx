@@ -28,7 +28,7 @@ import { useIsMounted } from "@/hooks/useIsMounted";
 import { getHash } from "@/utils/hash";
 import useHash from "@/hooks/useHashname";
 
-import { marlon } from "@/utils/font";
+import { lava } from "@/utils/font";
 
 // import AppTitle from "@/assets/title-app.png";
 import { findUsLink, socialsLink } from "@/constants/links";
@@ -94,15 +94,13 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
           className="mt-2 font-extrabold text-red-500"
           style={{ fontSize: 20 }}
         />
-        <DrawerHeader
-          className={`bg-angry-cat-primary h-24 ${marlon.className}`}
-        >
+        <DrawerHeader className={`bg-angry-cat-primary h-24 ${lava.className}`}>
           <Link href="/" className={`logo-container text-white h-full`}>
             <div className="font-extrabold text-2xl">ANGRYCAT</div>
           </Link>
         </DrawerHeader>
 
-        <DrawerBody className={`bg-angry-cat-primary ${marlon.className}`}>
+        <DrawerBody className={`bg-angry-cat-primary ${lava.className}`}>
           <List spacing={3}>
             {tabsList.map((item) => {
               const isActive = !!defaultHash
@@ -147,7 +145,7 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
         </DrawerBody>
 
         <DrawerFooter
-          className={`bg-angry-cat-primary mb-4 flex flex-wrap justify-center ${marlon.className}`}
+          className={`bg-angry-cat-primary mb-4 flex flex-wrap justify-center ${lava.className}`}
         >
           <Link
             href={findUsLink.raydium}

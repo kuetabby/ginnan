@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 import Provider from "@/library/Provider";
 
-import { marlon } from "@/utils/font";
+import { lava } from "@/utils/font";
 // import AppBackground from "@/assets/app-bg.png";
 
 import "./style.css";
@@ -19,7 +19,7 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
   return (
     <Provider>
       <Navbar />
-      <main className={clsx("base-main-container", marlon.className)}>
+      <main className={clsx("base-main-container", lava.className)}>
         {/* <Image
           src={AppBackground}
           alt="roadmap"

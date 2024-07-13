@@ -9,7 +9,7 @@ import { CopyrightOutlined } from "@ant-design/icons";
 import { useIsMounted } from "@/hooks/useIsMounted";
 
 import { socialsLink } from "@/constants/links";
-import { marlon } from "@/utils/font";
+import { lava } from "@/utils/font";
 
 // import AppLogo from "@/assets/logo-app.png";
 // import AppBannerNav from "@/assets/banner-nav.png";
@@ -36,7 +36,7 @@ const AppFooter: React.FC<Props> = () => {
   }
 
   return (
-    <footer className={clsx("app-footer", marlon.className)}>
+    <footer className={clsx("app-footer", lava.className)}>
       {/* <div id="socials" className="h-32 sm:h-40 relative z-30" /> */}
       <div id="socials" className="relative z-30" />
       <div className="app-footer-container">

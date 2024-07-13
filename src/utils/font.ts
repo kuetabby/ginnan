@@ -54,3 +54,10 @@ export const marlon = localFont({
   display: "swap",
   preload: true,
 });
+
+export const lava = localFont({
+  src: "../fonts/Lava-Arabic.ttf",
+  weight: "400",
+  display: "swap",
+  preload: true,
+});

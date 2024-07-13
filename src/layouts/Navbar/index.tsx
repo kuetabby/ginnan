@@ -11,7 +11,7 @@ import { NavbarDrawer } from "./Drawer";
 
 import { useIsMounted } from "@/hooks/useIsMounted";
 
-import { marlon } from "@/utils/font";
+import { lava } from "@/utils/font";
 import { findUsLink, socialsLink } from "@/constants/links";
 
 import AngryCatLogo from "@/assets/angry-cat-hero-rounded.png";
@@ -66,7 +66,7 @@ const Navbar: React.FC<Props> = () => {
   }
 
   return (
-    <div className={clsx("navbar-container", marlon.className)}>
+    <div className={clsx("navbar-container", lava.className)}>
       <div className={clsx(isScroll ? "navbar-scroll" : "navbar")}>
         <div className="w-auto sm:w-1/5 flex items-center relative">
           <Link href="/" className={`logo-container text-white`}>
