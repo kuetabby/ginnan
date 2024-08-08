@@ -241,7 +241,7 @@ const Home: React.FC<Props> = () => {
               {/* <div className="w-full m-auto text-4xl font-bold text-fatcat-primary mt-4 lg:mt-0">
                 $FATCAT
               </div> */}
-              <div className="w-full m-auto text-3xl mt-14">
+              <div className="w-full m-auto text-3xl mt-14 text-ginnan-secondary">
                 $ANGRYCAT is the first wave of fierce feline characters to storm
                 SOLANA, Join us on a bold and fiery journey, where intensity and
                 humor collide for an unforgettable adventure.
@@ -312,7 +312,7 @@ const Home: React.FC<Props> = () => {
           </div>
 
           <div className="w-full md:w-11/12 xl:w-4/5 flex flex-wrap justify-evenly items-center gap-y-8 mx-auto mt-12">
-            <div className="w-full h-auto lg:w-[47.5%] p-4 mb-7 border-2 border-white rounded-2xl m-2 sm:m-0 order-2 lg:order-1">
+            <div className="w-full h-auto lg:w-[47.5%] p-4 mb-7 border-2 border-white rounded-2xl m-2 sm:m-0 order-2 lg:order-1 text-ginnan-secondary">
               {/* <div className="text-3xl font-bold mb-4">1. make wallet</div> */}
               <div className="text-2xl lg:text-3xl">
                 There are several ways to purchase $GINNAN. We recommend

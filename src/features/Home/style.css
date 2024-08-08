@@ -10,7 +10,7 @@
 }
 
 .app-title {
-  @apply text-white font-bold;
+  @apply text-ginnan-secondary font-bold;
   /* @apply bg-inj-primary font-bold; */
   /* background-clip: text;
   -webkit-background-clip: text;
