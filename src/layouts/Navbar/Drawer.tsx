@@ -69,8 +69,8 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
         name: "TOKENOMICS",
       },
       {
-        href: findUsLink.dexscreener,
-        pathname: findUsLink.dexscreener,
+        href: findUsLink.dextools,
+        pathname: findUsLink.dextools,
         name: "CHART",
       },
     ];
@@ -94,15 +94,15 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
           className="mt-2 font-extrabold text-red-500"
           style={{ fontSize: 20 }}
         />
-        <DrawerHeader className={`bg-angry-cat-primary h-24 ${lava.className}`}>
+        <DrawerHeader className={`bg-ginnan-primary h-24 ${lava.className}`}>
           <Link href="/" className={`logo-container text-white h-full`}>
-            <div className="font-extrabold text-3xl">ANGRYCAT</div>
+            <div className="font-extrabold text-3xl text-ginnan-secondary">
+              $GINNAN
+            </div>
           </Link>
         </DrawerHeader>
 
-        <DrawerBody
-          className={`bg-angry-cat-primary text-2xl ${lava.className}`}
-        >
+        <DrawerBody className={`bg-ginnan-primary text-2xl ${lava.className}`}>
           <List spacing={3}>
             {tabsList.map((item) => {
               const isActive = !!defaultHash
@@ -147,10 +147,10 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
         </DrawerBody>
 
         <DrawerFooter
-          className={`bg-angry-cat-primary mb-4 flex flex-wrap justify-center text-2xl ${lava.className}`}
+          className={`bg-ginnan-primary mb-4 flex flex-wrap justify-center text-2xl ${lava.className}`}
         >
           <Link
-            href={findUsLink.raydium}
+            href={findUsLink.uniswap}
             target="_blank"
             rel="noopener noreferrer"
             className="w-full mr-2 md:mr-4"
@@ -162,7 +162,7 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
               variant="outline"
               // leftIcon={<DollarOutlined style={{ fontSize: "1.5em" }} />}
             >
-              BUY $ANGRYCAT
+              BUY $GINNAN
             </Button>
           </Link>
 

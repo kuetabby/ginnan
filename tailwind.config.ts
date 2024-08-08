@@ -21,6 +21,9 @@ module.exports = {
         "angry-cat-primary": "#f16748",
         "angry-cat-secondary": "#f5c648",
 
+        "ginnan-primary": "#ececae",
+        "ginnan-secondary": "#8dc9d1",
+
         "dark-main": "#151515",
         "dark-secondary": "#27262c",
         "light-main": "#D2D6EE",
@@ -31,6 +34,9 @@ module.exports = {
 
         "angry-cat-primary": "#f16748",
         "angry-cat-secondary": "#f5c648",
+
+        "ginnan-primary": "#ececae",
+        "ginnan-secondary": "#8dc9d1",
 
         "dark-main": "#151515",
         "dark-secondary": "#27262c",
@@ -59,12 +65,15 @@ module.exports = {
         "angry-cat-primary": "#f16748",
         "angry-cat-secondary": "#f5c648",
 
+        "ginnan-primary": "#ececae",
+        "ginnan-secondary": "#8dc9d1",
+
         "dark-main": "#8F8686",
         "light-main": "#D2D6EE",
       },
       fill: {
-        "fatcat-primary": "#7642e8",
-        "fatcat-secondary": "#5e7ce0",
+        "ginnan-primary": "#ececae",
+        "ginnan-secondary": "#8dc9d1",
       },
       keyframes: {
         lightning: {

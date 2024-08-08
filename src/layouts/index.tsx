@@ -4,7 +4,7 @@ import React, { PropsWithChildren } from "react";
 import clsx from "clsx";
 
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 import Provider from "@/library/Provider";
 
@@ -27,7 +27,7 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
         /> */}
         {children}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </Provider>
   );
 };

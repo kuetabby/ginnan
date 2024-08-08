@@ -14,7 +14,7 @@ import { useIsMounted } from "@/hooks/useIsMounted";
 import { lava } from "@/utils/font";
 import { findUsLink, socialsLink } from "@/constants/links";
 
-import AngryCatLogo from "@/assets/angry-cat-hero-rounded.png";
+import GinnanWindow from "@/assets/ginnan-window.png";
 
 import "./style.css";
 
@@ -71,7 +71,7 @@ const Navbar: React.FC<Props> = () => {
         <div className="w-auto sm:w-1/5 flex items-center relative">
           <Link href="/" className={`logo-container text-white`}>
             <Image
-              src={AngryCatLogo}
+              src={GinnanWindow}
               alt="banner-nav-logo"
               className="w-full md:w-full h-16 rounded-full object-contain"
             />
@@ -113,19 +113,19 @@ const Navbar: React.FC<Props> = () => {
             <>
               <div className="w-full sm:flex sm:justify-end hidden">
                 <Link
-                  href={findUsLink.raydium}
+                  href={findUsLink.uniswap}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-auto mr-2 md:mr-4"
                 >
                   <Button
                     // className="w-full text-white bg-pelu-red hover:bg-pelu-green active:bg-pelu-green focus:bg-pelu-green lg:p-6"
-                    className="w-full text-white hover:text-angry-cat-secondary border-2 lg:pt-3 lg:pb-2 lg:px-6 rounded-3xl"
+                    className="w-full text-white hover:text-ginnan-secondary border-2 lg:pt-3 lg:pb-2 lg:px-6 rounded-3xl"
                     colorScheme="black"
                     variant="outline"
                     // leftIcon={<DollarOutlined style={{ fontSize: "1.5em" }} />}
                   >
-                    BUY $ANGRYCAT
+                    BUY $GINNAN
                   </Button>
                 </Link>
 

@@ -35,7 +35,7 @@
 }
 
 .nav-anchor {
-  @apply text-white hover:text-angry-cat-secondary font-semibold;
+  @apply text-white hover:text-ginnan-secondary font-semibold;
   /* @apply bg-white hover:bg-lime-zest font-bold text-lg;
   background-clip: text;
   -webkit-background-clip: text;
@@ -43,7 +43,7 @@
 }
 
 .nav-anchor-active {
-  @apply font-semibold text-angry-cat-secondary;
+  @apply font-semibold text-ginnan-secondary;
   /* @apply bg-lime-zest font-bold;
   background-clip: text;
   -webkit-background-clip: text;
@@ -61,7 +61,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #f16748;
+  background: #ececae;
   /* Warna gradasi thumb scrollbar */
   border-radius: 10px;
   /* Membuat thumb menjadi bulat */
@@ -70,6 +70,6 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #f16748;
+  background: #ececae;
   /* Warna gradasi thumb saat di-hover */
 }
