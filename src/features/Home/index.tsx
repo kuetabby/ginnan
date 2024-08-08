@@ -242,7 +242,7 @@ const Home: React.FC<Props> = () => {
                 $FATCAT
               </div> */}
               <div className="w-full m-auto text-3xl mt-14 text-ginnan-secondary">
-                $GINNAN is a cat who has been preparing meals since the day he
+                $GINKUN is a cat who has been preparing meals since the day he
                 came to our home.
               </div>
 
@@ -314,18 +314,18 @@ const Home: React.FC<Props> = () => {
             <div className="w-full h-auto lg:w-[47.5%] p-4 mb-7 border-2 border-white rounded-2xl m-2 sm:m-0 order-2 lg:order-1 text-ginnan-secondary">
               {/* <div className="text-3xl font-bold mb-4">1. make wallet</div> */}
               <div className="text-2xl lg:text-3xl">
-                There are several ways to purchase $GINNAN. We recommend
+                There are several ways to purchase $GINKUN. We recommend
                 starting by downloading the MetaMask wallet.
               </div>
 
               <div className="text-2xl lg:text-3xl my-4">
                 First, buy some ETH and send it to your MetaMask address. You
-                can then swap for $GINNAN using MetaMask’s in-app browser or a
+                can then swap for $GINKUN using MetaMask’s in-app browser or a
                 decentralized exchange like Uniswap.
               </div>
 
               <div className="text-2xl lg:text-3xl">
-                Additionally, $GINNAN is available for purchase on multiple
+                Additionally, $GINKUN is available for purchase on multiple
                 chains via our integrated 1inch swap, or you can use Uniswap if
                 you already own some ETH.
               </div>

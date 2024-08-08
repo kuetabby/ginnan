@@ -97,7 +97,7 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
         <DrawerHeader className={`bg-ginnan-primary h-24 ${galaxy.className}`}>
           <Link href="/" className={`logo-container text-white h-full`}>
             <div className="font-extrabold text-3xl text-ginnan-secondary">
-              $GINNAN
+              $GINKUN
             </div>
           </Link>
         </DrawerHeader>
@@ -164,7 +164,7 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
               variant="outline"
               // leftIcon={<DollarOutlined style={{ fontSize: "1.5em" }} />}
             >
-              BUY $GINNAN
+              BUY $GINKUN
             </Button>
           </Link>
 
