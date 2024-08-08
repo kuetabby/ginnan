@@ -7,8 +7,8 @@ import BaseLayout from "@/layouts";
 
 import "./globals.css";
 
-const app_title = "$$GINKUN";
-const app_name = "$$GINKUN";
+const app_title = "$GINKUN";
+const app_name = "$GINKUN";
 const description = "This is what I do every time";
 
 export const metadata: Metadata = {
