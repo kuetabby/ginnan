@@ -116,7 +116,7 @@ const Home: React.FC<Props> = () => {
 
   if (!isMounted) {
     return (
-      <div className="homepage-container bg-angry-cat-primary">
+      <div className="homepage-container bg-ginnan-secondary">
         <YinLoader />
       </div>
     );
@@ -228,8 +228,8 @@ const Home: React.FC<Props> = () => {
         {/* <div id="about" className="h-24 sm:h-36 relative z-30" /> */}
         <div id="about" className="h-24 sm:h-36 relative z-30" />
         <div ref={aboutRef} className="w-full h-full relative">
-          <div className="homepage-body flex flex-wrap justify-evenly px-2 lg:px-0">
-            <div className="w-full lg:w-[47.5%] m-auto text-center">
+          <div className="homepage-body !max-w-lg flex flex-wrap justify-evenly px-2 lg:px-0">
+            <div className="w-full m-auto text-center">
               <Image
                 src={HeroPlastic}
                 alt="ginnan-plastic"
@@ -237,27 +237,26 @@ const Home: React.FC<Props> = () => {
               />
             </div>
 
-            <div className="w-full lg:w-[47.5%]">
+            <div className="w-full">
               {/* <div className="w-full m-auto text-4xl font-bold text-fatcat-primary mt-4 lg:mt-0">
                 $FATCAT
               </div> */}
               <div className="w-full m-auto text-3xl mt-14 text-ginnan-secondary">
-                $ANGRYCAT is the first wave of fierce feline characters to storm
-                SOLANA, Join us on a bold and fiery journey, where intensity and
-                humor collide for an unforgettable adventure.
+                $GINNAN is a cat who has been preparing meals since the day he
+                came to our home.
               </div>
 
-              {/* <div className="w-full m-auto text-3xl mt-14 mb-2 text-center lg:text-left lg:px-2">
-                Community
-              </div> */}
-              <div className="w-full flex flex-wrap justify-center lg:justify-start items-center text-white mt-8 m-auto gap-4">
+              <div className="w-full m-auto text-3xl my-2 text-center lg:text-left lg:px-2 text-ginnan-secondary">
+                This is what I do every time.
+              </div>
+              <div className="w-full flex flex-wrap justify-center items-center text-white mt-8 m-auto gap-4 bg-ginnan-secondary rounded-2xl">
                 <Link
                   href={findUsLink.uniswap}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-auto flex items-center gap-2 hover:!text-primary rounded-full p-2"
                 >
-                  <UniswapIcon className="w-14 h-full fill-red-700 -mt-4" />
+                  <UniswapIcon className="w-14 h-full fill-white -mt-4" />
                   {/* <div className="text-3xl">Raydium</div> */}
                 </Link>
 
@@ -267,7 +266,7 @@ const Home: React.FC<Props> = () => {
                   rel="noopener noreferrer"
                   className="w-auto flex items-center gap-2 rounded-full p-2"
                 >
-                  <TelegramIcon className="w-12 h-full fill-blue-300" />
+                  <TelegramIcon className="w-12 h-full fill-white" />
                   {/* <div className="text-3xl">Telegram</div> */}
                 </Link>
 
@@ -277,7 +276,7 @@ const Home: React.FC<Props> = () => {
                   rel="noopener noreferrer"
                   className="w-auto flex items-center gap-2 rounded-full p-2"
                 >
-                  <TwitterIcon className="w-8 h-full fill-black" />
+                  <TwitterIcon className="w-8 h-full fill-white" />
                   {/* <div className="text-3xl">Twitter</div> */}
                 </Link>
 
@@ -287,7 +286,7 @@ const Home: React.FC<Props> = () => {
                   rel="noopener noreferrer"
                   className="w-auto flex items-center gap-2 hover:!text-primary rounded-full p-2"
                 >
-                  <DextoolsIcon className="w-10 h-full fill-ginnan-secondary" />
+                  <DextoolsIcon className="w-10 h-full fill-white" />
                   {/* <div className="text-3xl">Raydium</div> */}
                 </Link>
 
