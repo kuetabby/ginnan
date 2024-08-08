@@ -28,7 +28,7 @@ import { useIsMounted } from "@/hooks/useIsMounted";
 import { getHash } from "@/utils/hash";
 import useHash from "@/hooks/useHashname";
 
-import { lava } from "@/utils/font";
+import { galaxy } from "@/utils/font";
 
 // import AppTitle from "@/assets/title-app.png";
 import { findUsLink, socialsLink } from "@/constants/links";
@@ -94,7 +94,7 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
           className="mt-2 font-extrabold text-red-500"
           style={{ fontSize: 20 }}
         />
-        <DrawerHeader className={`bg-ginnan-primary h-24 ${lava.className}`}>
+        <DrawerHeader className={`bg-ginnan-primary h-24 ${galaxy.className}`}>
           <Link href="/" className={`logo-container text-white h-full`}>
             <div className="font-extrabold text-3xl text-ginnan-secondary">
               $GINNAN
@@ -102,7 +102,9 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
           </Link>
         </DrawerHeader>
 
-        <DrawerBody className={`bg-ginnan-primary text-2xl ${lava.className}`}>
+        <DrawerBody
+          className={`bg-ginnan-primary text-2xl ${galaxy.className}`}
+        >
           <List spacing={3}>
             {tabsList.map((item) => {
               const isActive = !!defaultHash
@@ -147,7 +149,7 @@ export const NavbarDrawer: React.FC<Props> = ({ isOpen, onClose }) => {
         </DrawerBody>
 
         <DrawerFooter
-          className={`bg-ginnan-primary mb-4 flex flex-wrap justify-center text-2xl ${lava.className}`}
+          className={`bg-ginnan-primary mb-4 flex flex-wrap justify-center text-2xl ${galaxy.className}`}
         >
           <Link
             href={findUsLink.uniswap}

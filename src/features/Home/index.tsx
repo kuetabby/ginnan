@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@chakra-ui/react";
+// import { Button } from "@chakra-ui/react";
 // import { Button, ListItem, UnorderedList } from "@chakra-ui/react";
 // import { ArrowRightOutlined } from "@ant-design/icons";
 
@@ -20,7 +20,7 @@ import { useCopyText } from "@/hooks/useCopyText";
 
 import BannerApp from "@/assets/ginnan-banner.png";
 import HeroApp from "@/assets/ginnan-icon.png";
-import HeroFriendsApp from "@/assets/ginnan-vitalik.png";
+// import HeroFriendsApp from "@/assets/ginnan-vitalik.png";
 import HeroPlastic from "@/assets/ginnan-plastic.png";
 
 // import HeroApp from "@/assets/hero-app.png";
@@ -38,8 +38,8 @@ import "./style.css";
 import { contractAddress, findUsLink, socialsLink } from "@/constants/links";
 import { TelegramIcon } from "@/utils/Icon/Socials/Telegram";
 import { TwitterIcon } from "@/utils/Icon/Socials/Twitter";
-import { RaydiumIcon } from "@/utils/Icon/Socials/Raydium";
-import Anchor from "@/components/Anchor";
+// import { RaydiumIcon } from "@/utils/Icon/Socials/Raydium";
+// import Anchor from "@/components/Anchor";
 import { UniswapIcon } from "@/utils/Icon/Socials/Uniswap";
 import { DextoolsIcon } from "@/utils/Icon/Socials/Dextools";
 

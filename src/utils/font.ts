@@ -61,3 +61,10 @@ export const lava = localFont({
   display: "swap",
   preload: true,
 });
+
+export const galaxy = localFont({
+  src: "../fonts/Luar-Galaxy.ttf",
+  weight: "400",
+  display: "swap",
+  preload: true,
+});

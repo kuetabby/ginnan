@@ -8,7 +8,7 @@ import Navbar from "./Navbar";
 
 import Provider from "@/library/Provider";
 
-import { lava } from "@/utils/font";
+import { galaxy } from "@/utils/font";
 // import AppBackground from "@/assets/app-bg.png";
 
 import "./style.css";
@@ -19,7 +19,7 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
   return (
     <Provider>
       <Navbar />
-      <main className={clsx("base-main-container", lava.className)}>
+      <main className={clsx("base-main-container", galaxy.className)}>
         {/* <Image
           src={AppBackground}
           alt="roadmap"
