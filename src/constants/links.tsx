@@ -3,8 +3,8 @@ export const pairAddress = "-";
 
 export const socialsLink = {
   whitepaper: "/",
-  twitter: "https://x.com/",
-  telegram: "https://t.me/",
+  twitter: "https://x.com/Ginnan_Kun",
+  telegram: "https://t.me/Ginnankun",
   medium: "/",
   email: "mailto:",
 };
