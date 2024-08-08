@@ -9,7 +9,7 @@ import "./globals.css";
 
 const app_title = "$GINNAN";
 const app_name = "$GINNAN";
-const description = "";
+const description = "This is what I do every time";
 
 export const metadata: Metadata = {
   title: app_title,
